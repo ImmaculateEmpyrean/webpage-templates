@@ -1,0 +1,154 @@
+html{
+    background: black;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+//setup
+$margin-top-bottom: 10rem;
+$margin-right: 8rem;
+
+$box-height: 40rem;
+
+$p-font-size: 1rem;
+$title-font-size: 2rem;
+
+.main-table{
+    display: flex;
+    flex-direction: row;
+
+    h1{
+        flex: 1 1 20%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        color: yellow;   
+        writing-mode: vertical-rl;
+        opacity: 50%;
+    }
+    .table{
+        flex: 1 1 80%;
+        border: 1px solid yellow;
+        
+        margin: $margin-top-bottom 0;
+        margin-right: $margin-right;
+
+        height: $box-height;
+    }
+}
+
+.relative-absolute{
+    display: flex;
+    flex-direction: row;
+
+    h1{
+        flex: 1 1 20%;
+        display: flex;
+
+        writing-mode: vertical-rl;
+        color: yellow;
+        opacity: 50%;
+
+        justify-content: center;
+        align-items: center;
+
+        margin: $margin-top-bottom 0;
+    }
+    .relative-container{
+        flex: 1 1 80%;
+        display: flex;
+
+        border: 1px solid yellow;
+
+        margin: $margin-top-bottom 0;
+        margin-right: $margin-right;
+        min-height: $box-height;
+    }
+}
+
+.flex-box{
+    display: flex;
+    flex-direction: row;
+
+    h1{
+        flex: 1 1 20%;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        color: yellow;
+        opacity: 50%;
+        writing-mode: vertical-rl;
+    }
+    .flex-box-area{
+        flex: 1 1 80%;
+
+        border: 1px solid yellow;
+
+        margin: $margin-top-bottom 0;
+        margin-right: $margin-right;
+        min-height: $box-height;
+    }
+}
+
+.grid{
+    display: flex;
+    flex-direction: row;
+
+    h1{
+        flex: 1 1 20%;
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        color: yellow;
+        opacity: 50%;
+        writing-mode: vertical-rl;
+    }
+    .grid-area{
+        flex: 1 1 80%;
+
+        border: 1px solid yellow;
+        margin: $margin-top-bottom 0;
+        margin-right: $margin-right;
+
+        min-height: $box-height;
+    }
+}
+
+.margins{
+    display: flex;
+    flex-direction: row;
+
+    h1{
+        flex: 1 1 20%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        color: yellow;
+        opacity: 50%;
+        writing-mode: vertical-rl;
+
+    }
+    .margin{
+        flex: 1 1 80%;
+
+        border: 1px solid yellow;
+
+        margin: $margin-top-bottom 0;
+        margin-right: $margin-right;
+        min-height: $box-height;
+    }
+}
+//end setup
