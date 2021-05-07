@@ -14,7 +14,7 @@ html {
 }
 .top-menu img {
   width: 75px;
-  margin: 0.5em;
+  margin: 0.5em 2.5em;
 }
 .top-menu ul {
   list-style: none;
@@ -27,7 +27,7 @@ html {
 .top-menu ul li > a {
   text-decoration: none;
   color: black;
-  font-size: 1.25rem;
+  font-size: 1rem;
 }
 .top-menu > ul + div {
   padding: 2em 0;
@@ -39,11 +39,11 @@ html {
 }
 .top-menu > ul + div a:nth-child(1) {
   color: #0000ff;
-  font-size: 1.25rem;
+  font-size: 1rem;
 }
 .top-menu > ul + div a:nth-child(2) {
   color: black;
-  font-size: 1rem;
+  font-size: 0.75rem;
 }
 
 /*# sourceMappingURL=style.css.map */

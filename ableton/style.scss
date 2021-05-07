@@ -6,14 +6,12 @@ html{
 
 $image-size: 75px;
 
-
 .top-menu{
     display: flex;
     border-bottom: 1px solid lightgray;
     img{
         width: $image-size;
-        margin: $spacing-smaller;
-        
+        margin: $spacing-smaller  $spacing-larger;
         //only for debug purposes
         //border: 1px solid steelblue; 
     }
