@@ -1,2 +1,38 @@
 @use 'abstract' as *;
 
+html{
+    font-family: "DM Serif Display",serif;
+}
+
+$image-size: $spacing-larger;
+
+
+.top-menu{
+    display: flex;
+    border-bottom: 1px solid lightgray;
+    img{
+        width: $spacing-larger;
+        margin: $spacing-smaller;
+        
+        //only for debug purposes
+        border: 1px solid steelblue; 
+    }
+
+    ul{
+        list-style: none;
+        display: flex;
+        
+        li{
+            padding: $spacing-large $spacing-small;
+        }
+    }
+
+   >ul + div{
+       padding: $spacing-large 0;
+       margin-left:auto;
+
+        a{
+            padding: 0 $spacing-small;
+        }
+   }
+}

@@ -4,4 +4,32 @@
   box-sizing: border-box;
 }
 
+html {
+  font-family: "DM Serif Display", serif;
+}
+
+.top-menu {
+  display: flex;
+  border-bottom: 1px solid lightgray;
+}
+.top-menu img {
+  width: 2.5em;
+  margin: 0.5em;
+  border: 1px solid steelblue;
+}
+.top-menu ul {
+  list-style: none;
+  display: flex;
+}
+.top-menu ul li {
+  padding: 2em 1em;
+}
+.top-menu > ul + div {
+  padding: 2em 0;
+  margin-left: auto;
+}
+.top-menu > ul + div a {
+  padding: 0 1em;
+}
+
 /*# sourceMappingURL=style.css.map */
