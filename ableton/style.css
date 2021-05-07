@@ -13,9 +13,8 @@ html {
   border-bottom: 1px solid lightgray;
 }
 .top-menu img {
-  width: 2.5em;
+  width: 75px;
   margin: 0.5em;
-  border: 1px solid steelblue;
 }
 .top-menu ul {
   list-style: none;
@@ -24,12 +23,26 @@ html {
 .top-menu ul li {
   padding: 2em 1em;
 }
+.top-menu ul li > a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.25rem;
+}
 .top-menu > ul + div {
   padding: 2em 0;
   margin-left: auto;
 }
 .top-menu > ul + div a {
   padding: 0 1em;
+  text-decoration: none;
+}
+.top-menu > ul + div a:nth-child(1) {
+  color: #0000ff;
+  font-size: 1.25rem;
+}
+.top-menu > ul + div a:nth-child(2) {
+  color: black;
+  font-size: 1rem;
 }
 
 /*# sourceMappingURL=style.css.map */

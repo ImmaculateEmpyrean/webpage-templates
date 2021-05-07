@@ -4,18 +4,18 @@ html{
     font-family: "DM Serif Display",serif;
 }
 
-$image-size: $spacing-larger;
+$image-size: 75px;
 
 
 .top-menu{
     display: flex;
     border-bottom: 1px solid lightgray;
     img{
-        width: $spacing-larger;
+        width: $image-size;
         margin: $spacing-smaller;
         
         //only for debug purposes
-        border: 1px solid steelblue; 
+        //border: 1px solid steelblue; 
     }
 
     ul{
@@ -24,7 +24,15 @@ $image-size: $spacing-larger;
         
         li{
             padding: $spacing-large $spacing-small;
+            
+            >a{
+                text-decoration: none;
+                color:black;
+                font-size: $font-normal;
+            }
         }
+        
+        
     }
 
    >ul + div{
@@ -33,6 +41,17 @@ $image-size: $spacing-larger;
 
         a{
             padding: 0 $spacing-small;
+            text-decoration: none;
+        }
+        a:nth-child(1)
+        {
+            color: $dark-blue;
+            font-size: $font-normal;
+        }
+        a:nth-child(2)
+        {
+            color: black;
+            font-size: $font-small;
         }
    }
 }
