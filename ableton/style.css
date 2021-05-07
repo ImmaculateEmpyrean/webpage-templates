@@ -46,4 +46,23 @@ html {
   font-size: 0.75rem;
 }
 
+body > nav + div ul {
+  display: flex;
+  list-style: none;
+}
+body > nav + div ul li {
+  margin: 0.5em 0;
+  margin-left: 2.5em;
+  text-transform: capitalize;
+}
+body > nav + div ul li a {
+  font-family: sans-serif;
+  text-decoration: none;
+  color: black;
+  font-size: 0.75rem;
+}
+body > nav + div ul li:nth-child(1) a {
+  color: #ff764d;
+}
+
 /*# sourceMappingURL=style.css.map */

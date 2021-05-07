@@ -6,14 +6,15 @@ html{
 
 $image-size: 75px;
 
+$left-margin-from-wrapper: $spacing-larger;
+$top-margin-from-wrapper : $spacing-smaller;
+
 .top-menu{
     display: flex;
     border-bottom: 1px solid lightgray;
     img{
         width: $image-size;
-        margin: $spacing-smaller  $spacing-larger;
-        //only for debug purposes
-        //border: 1px solid steelblue; 
+        margin:$top-margin-from-wrapper $left-margin-from-wrapper;
     }
 
     ul{
@@ -52,4 +53,31 @@ $image-size: 75px;
             font-size: $font-small;
         }
    }
+}
+
+
+
+body > nav + div{
+    ul{
+        display: flex;
+        list-style: none;
+        li{
+            margin: $top-margin-from-wrapper 0;
+            margin-left:$left-margin-from-wrapper;
+
+            text-transform: capitalize;
+            a{
+                font-family: sans-serif;
+                text-decoration: none;
+                color: black;
+                font-size: $font-small;
+            }
+        }
+        li:nth-child(1)
+            {
+                a{
+                    color: $red;    
+                }
+            }
+    }
 }
