@@ -53,6 +53,7 @@ $link-space-left-right: $spacing-small;
         {
             color: black;
             font-size: $font-small;
+            margin-right: $left-margin-from-wrapper;
         }
    }
 }
@@ -89,3 +90,6 @@ body > nav + div{
         }
     }
 }
+
+
+

@@ -44,6 +44,7 @@ html {
 .top-menu > ul + div a:nth-child(2) {
   color: black;
   font-size: 0.75rem;
+  margin-right: 2.5em;
 }
 
 body > nav + div {
