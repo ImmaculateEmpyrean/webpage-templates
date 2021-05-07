@@ -180,10 +180,36 @@ $title-font-size: 2rem;
             position: absolute;
             top: 50%;
             left: 50%;
-            background: red;
-
+            
             transform: translateY(-50%);
             transform: translateX(-50%);
+        }
+    }
+}
+
+.flex-box{
+    .flex-box-area
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.grid{
+    .grid-area{
+        display: grid;
+        place-items: center;
+    }
+}
+
+.margins{
+    .margin{
+        display: grid;
+        //grid-template-columns: repeat(3,1fr);
+        //grid-template-rows: repeat(3,1fr);
+        p{
+            margin: auto 0; //inside a grid or a flexbox.. an auto margin on top and bottom centers the element to that cell probably
         }
     }
 }

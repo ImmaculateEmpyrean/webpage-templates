@@ -135,9 +135,26 @@ html {
   position: absolute;
   top: 50%;
   left: 50%;
-  background: red;
   transform: translateY(-50%);
   transform: translateX(-50%);
+}
+
+.flex-box .flex-box-area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid .grid-area {
+  display: grid;
+  place-items: center;
+}
+
+.margins .margin {
+  display: grid;
+}
+.margins .margin p {
+  margin: auto 0;
 }
 
 /*# sourceMappingURL=style.css.map */
