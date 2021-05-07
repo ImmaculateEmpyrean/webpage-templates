@@ -46,13 +46,15 @@ html {
   font-size: 0.75rem;
 }
 
+body > nav + div {
+  margin: 0.5em 0;
+  margin-left: 2.5em;
+}
 body > nav + div ul {
   display: flex;
   list-style: none;
 }
 body > nav + div ul li {
-  margin: 0.5em 0;
-  margin-left: 2.5em;
   text-transform: capitalize;
 }
 body > nav + div ul li a {
@@ -63,6 +65,9 @@ body > nav + div ul li a {
 }
 body > nav + div ul li:nth-child(1) a {
   color: #ff764d;
+}
+body > nav + div ul li:nth-child(2) a {
+  margin-left: 1em;
 }
 
 /*# sourceMappingURL=style.css.map */

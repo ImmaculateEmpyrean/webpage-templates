@@ -9,6 +9,8 @@ $image-size: 75px;
 $left-margin-from-wrapper: $spacing-larger;
 $top-margin-from-wrapper : $spacing-smaller;
 
+$link-space-left-right: $spacing-small; 
+
 .top-menu{
     display: flex;
     border-bottom: 1px solid lightgray;
@@ -22,7 +24,7 @@ $top-margin-from-wrapper : $spacing-smaller;
         display: flex;
         
         li{
-            padding: $spacing-large $spacing-small;
+            padding: $spacing-large $link-space-left-right;
             text-transform: capitalize;
             >a{
                 text-decoration: none;
@@ -58,13 +60,13 @@ $top-margin-from-wrapper : $spacing-smaller;
 
 
 body > nav + div{
+    margin: $top-margin-from-wrapper 0;
+    margin-left:$left-margin-from-wrapper;
+
     ul{
         display: flex;
         list-style: none;
         li{
-            margin: $top-margin-from-wrapper 0;
-            margin-left:$left-margin-from-wrapper;
-
             text-transform: capitalize;
             a{
                 font-family: sans-serif;
@@ -74,10 +76,16 @@ body > nav + div{
             }
         }
         li:nth-child(1)
-            {
-                a{
-                    color: $red;    
-                }
+        {
+            a{
+                color: $red;    
             }
+        }
+        li:nth-child(2)
+        {
+            a{
+                margin-left: $link-space-left-right;    
+            }
+        }
     }
 }
