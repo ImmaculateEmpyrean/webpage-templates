@@ -22,6 +22,7 @@ html {
 }
 .top-menu ul li {
   padding: 2em 1em;
+  text-transform: capitalize;
 }
 .top-menu ul li > a {
   text-decoration: none;

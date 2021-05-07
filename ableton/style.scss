@@ -24,7 +24,7 @@ $image-size: 75px;
         
         li{
             padding: $spacing-large $spacing-small;
-            
+            text-transform: capitalize;
             >a{
                 text-decoration: none;
                 color:black;
