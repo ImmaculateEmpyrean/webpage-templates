@@ -1,12 +1,9 @@
 @use "../abstract" as *;
 
-$left-margin-from-wrapper: $spacing-larger;
-
 //this value was arbitrary but seemed to work somewhat..
 $absolute-large-padding: 75px;
 
 .paragraphs{
-    margin: 0 $left-margin-from-wrapper;
     font-family:Georgia, 'Times New Roman', Times, serif;
     p{
         padding: 0 $absolute-large-padding; 

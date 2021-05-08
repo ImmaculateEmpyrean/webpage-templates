@@ -5,34 +5,42 @@ html{
     font-family: "DM Serif Display",serif;
 }
 
+$left-margin-from-wrapper: $spacing-larger; //duplicated in customstyles/basic.scss
+$logo-size: 70px;
+$top-margin-from-wrapper : $spacing-smaller;
+$link-space-left-right: $spacing-small;
+
 body{
     display: grid;
     grid-template-columns: 1fr minmax(500px,1100px) 1fr;
-
+    
     background: $white-smoke;
 }
+
+ 
+
 .wrapper{
     grid-column: 2 / 3;
-
     background: white;
+
+    padding:0 $left-margin-from-wrapper;
+
+    display: flex;
+    flex-direction: column;
+    gap: $top-margin-from-wrapper;
 }
 
-$image-size: 70px;
 
-$left-margin-from-wrapper: $spacing-larger;
-$top-margin-from-wrapper : $spacing-smaller;
-
-$link-space-left-right: $spacing-small; 
 
 .top-menu{
     display: flex;
     border-bottom: 1px solid lightgray;
-    margin:$top-margin-from-wrapper $left-margin-from-wrapper;
+    margin:0 0;
 
     .logo-container{
         //flex: 1 1 10%;
         img{
-            width:$image-size;
+            width:$logo-size;
             object-fit:cover;
         }
     }
@@ -76,8 +84,6 @@ $link-space-left-right: $spacing-small;
 
 
 .wrapper > nav + div{
-    margin: $top-margin-from-wrapper 0;
-    margin-left:$left-margin-from-wrapper;
 
     ul{
         display: flex;
@@ -107,10 +113,7 @@ $link-space-left-right: $spacing-small;
 }
 
 
-
-
 .ableton-main-picture{
-    margin: 0 $left-margin-from-wrapper;
     background-image: url("img/ableton-main-picture.png");
     background-size: cover;
 
