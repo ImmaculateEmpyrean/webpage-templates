@@ -23,6 +23,9 @@ $top-margin-from-wrapper : $spacing-smaller;
 
 $link-space-left-right: $spacing-small; 
 
+//this value was arbitrary but seemed to work somewhat..
+$absolute-large-padding: 75px;
+
 .top-menu{
     display: flex;
     border-bottom: 1px solid lightgray;
@@ -53,7 +56,7 @@ $link-space-left-right: $spacing-small;
    >ul + div{
        padding: $spacing-normal 0;
        margin-left:auto;
-       
+
         a{
             text-decoration: none;
         }
@@ -111,5 +114,33 @@ $link-space-left-right: $spacing-small;
     margin: 0 $left-margin-from-wrapper;
     img{
         width: 100%;
+    }
+}
+
+
+
+.main-paragraph{
+    margin: 0 $left-margin-from-wrapper;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align:center;
+
+    p{
+        padding: 0 $absolute-large-padding; 
+        i{
+            text-decoration: normal;
+            color: $dark-blue;
+            font-style: normal;
+        }
+    }
+    p:nth-child(1)
+    {
+        font-size: $font-large;
+        padding-top: $absolute-large-padding; 
+    }
+    p:nth-child(2)
+    {
+        font-size: $font-small;
+        padding-top: 10px;
+        padding-bottom: $absolute-large-padding;
     }
 }

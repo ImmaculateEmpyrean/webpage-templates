@@ -90,4 +90,27 @@ body {
   width: 100%;
 }
 
+.main-paragraph {
+  margin: 0 2.5em;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+}
+.main-paragraph p {
+  padding: 0 75px;
+}
+.main-paragraph p i {
+  text-decoration: normal;
+  color: #0000ff;
+  font-style: normal;
+}
+.main-paragraph p:nth-child(1) {
+  font-size: 1.5rem;
+  padding-top: 75px;
+}
+.main-paragraph p:nth-child(2) {
+  font-size: 0.75rem;
+  padding-top: 10px;
+  padding-bottom: 75px;
+}
+
 /*# sourceMappingURL=style.css.map */
