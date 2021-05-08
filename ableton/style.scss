@@ -110,11 +110,27 @@ $absolute-large-padding: 75px;
 
 
 
-.main-img-container{
+/*.main-img-container{
     margin: 0 $left-margin-from-wrapper;
     img{
         width: 100%;
     }
+}*/
+.ableton-main-picture{
+    margin: 0 $left-margin-from-wrapper;
+    background-image: url("img/ableton-main-picture.png");
+    background-size: cover;
+
+    min-height: calc(100vh - 120px);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h1{
+        font-size: $font-larger;
+        color:$red;
+    };
 }
 
 
@@ -144,3 +160,6 @@ $absolute-large-padding: 75px;
         padding-bottom: $absolute-large-padding;
     }
 }
+
+
+

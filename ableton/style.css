@@ -83,11 +83,24 @@ body {
   margin-left: 1em;
 }
 
-.main-img-container {
+/*.main-img-container{
+    margin: 0 $left-margin-from-wrapper;
+    img{
+        width: 100%;
+    }
+}*/
+.ableton-main-picture {
   margin: 0 2.5em;
+  background-image: url("img/ableton-main-picture.png");
+  background-size: cover;
+  min-height: calc(100vh - 120px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.main-img-container img {
-  width: 100%;
+.ableton-main-picture h1 {
+  font-size: 7rem;
+  color: #ff764d;
 }
 
 .main-paragraph {
