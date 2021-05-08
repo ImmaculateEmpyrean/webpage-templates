@@ -99,6 +99,7 @@ body {
   align-items: center;
 }
 .ableton-main-picture h1 {
+  font-family: sans-serif;
   font-size: 7rem;
   color: #ff764d;
 }
