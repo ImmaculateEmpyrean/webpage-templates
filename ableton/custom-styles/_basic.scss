@@ -1,0 +1,29 @@
+@use "../abstract" as *;
+
+$left-margin-from-wrapper: $spacing-larger;
+
+//this value was arbitrary but seemed to work somewhat..
+$absolute-large-padding: 75px;
+
+.paragraphs{
+    margin: 0 $left-margin-from-wrapper;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    p{
+        padding: 0 $absolute-large-padding; 
+        i{
+            text-decoration: normal;
+            color: $dark-blue;
+            font-style: normal;
+        }
+        font-size: $font-small;
+        padding-top: 10px;
+    }
+    p:nth-child(1)
+    {
+        font-size: $font-large;
+        padding-top: $absolute-large-padding; 
+    }
+    p:last-child{
+        padding-bottom: $absolute-large-padding;
+    }
+}

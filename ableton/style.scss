@@ -1,4 +1,5 @@
 @use 'abstract' as *;
+@use 'custom-styles';
 
 html{
     font-family: "DM Serif Display",serif;
@@ -22,9 +23,6 @@ $left-margin-from-wrapper: $spacing-larger;
 $top-margin-from-wrapper : $spacing-smaller;
 
 $link-space-left-right: $spacing-small; 
-
-//this value was arbitrary but seemed to work somewhat..
-$absolute-large-padding: 75px;
 
 .top-menu{
     display: flex;
@@ -110,12 +108,7 @@ $absolute-large-padding: 75px;
 
 
 
-/*.main-img-container{
-    margin: 0 $left-margin-from-wrapper;
-    img{
-        width: 100%;
-    }
-}*/
+
 .ableton-main-picture{
     margin: 0 $left-margin-from-wrapper;
     background-image: url("img/ableton-main-picture.png");
@@ -133,34 +126,3 @@ $absolute-large-padding: 75px;
         color:$red;
     };
 }
-
-
-
-.main-paragraph{
-    margin: 0 $left-margin-from-wrapper;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    text-align:center;
-
-    p{
-        padding: 0 $absolute-large-padding; 
-        i{
-            text-decoration: normal;
-            color: $dark-blue;
-            font-style: normal;
-        }
-    }
-    p:nth-child(1)
-    {
-        font-size: $font-large;
-        padding-top: $absolute-large-padding; 
-    }
-    p:nth-child(2)
-    {
-        font-size: $font-small;
-        padding-top: 10px;
-        padding-bottom: $absolute-large-padding;
-    }
-}
-
-
-
