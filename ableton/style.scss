@@ -120,7 +120,7 @@ body{
 
 
 .main-img-container{
-    padding:0 $left-margin-from-wrapper;
+    padding:0 $left-margin-from-wrapper * 2;
 
     .ableton-main-picture{
         background-image: url("img/ableton-main-picture.png");
@@ -148,7 +148,7 @@ body{
     grid-template-rows: 1;
 
     padding:0 0;
-    padding-left: $left-margin-from-wrapper;
+    padding-left: $left-margin-from-wrapper * 2;
 
     .box1{
         display: flex;
@@ -188,7 +188,8 @@ body{
 
 
 .video-block{
-    padding:0 $left-margin-from-wrapper;
+    padding:0 $left-margin-from-wrapper * 2;
+    
     iframe{
         width: 100%;
         padding: 0 $absolute-large-padding; 
