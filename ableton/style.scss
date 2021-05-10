@@ -10,6 +10,8 @@ $logo-size: 70px;
 $top-margin-from-wrapper : $spacing-smaller;
 $link-space-left-right: $spacing-small;
 
+$absolute-large-padding: 75px; //duplicated in custom-styles/basic
+
 body{
     display: grid;
     grid-template-columns: 1fr minmax(500px,1100px) 1fr;
@@ -147,7 +149,7 @@ body{
 
     padding:0 0;
     padding-left: $left-margin-from-wrapper;
-    
+
     .box1{
         display: flex;
         justify-content: left;
@@ -185,3 +187,14 @@ body{
 
 
 
+.video-block{
+    padding:0 $left-margin-from-wrapper;
+    iframe{
+        width: 100%;
+        padding: 0 $absolute-large-padding; 
+    }
+    p{
+        padding: 0 $absolute-large-padding; 
+        font-size: $font-small;
+    }
+}

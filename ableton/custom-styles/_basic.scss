@@ -1,8 +1,7 @@
 @use "../abstract" as *;
 
 //this value was arbitrary but seemed to work somewhat..
-$absolute-large-padding: 75px;
-
+$absolute-large-padding: 75px; //duplicated in style.css
 $left-margin-from-wrapper: $spacing-larger; //duplicated in style.css
 
 .paragraphs{
