@@ -6,6 +6,7 @@
 
 .paragraphs {
   font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 0 2.5em;
 }
 .paragraphs p {
   padding: 0 75px;
@@ -38,7 +39,7 @@ body {
 .wrapper {
   grid-column: 2/3;
   background: white;
-  padding: 0 2.5em;
+  padding: 0 0;
   display: flex;
   flex-direction: column;
   gap: 0.5em;
@@ -48,6 +49,7 @@ body {
   display: flex;
   border-bottom: 1px solid lightgray;
   margin: 0 0;
+  padding: 0 2.5em;
 }
 .top-menu .logo-container img {
   width: 70px;
@@ -84,6 +86,9 @@ body {
   font-size: 0.75rem;
 }
 
+.wrapper > nav + div {
+  padding: 0 2.5em;
+}
 .wrapper > nav + div ul {
   display: flex;
   list-style: none;
@@ -104,7 +109,10 @@ body {
   margin-left: 1em;
 }
 
-.ableton-main-picture {
+.main-img-container {
+  padding: 0 2.5em;
+}
+.main-img-container .ableton-main-picture {
   background-image: url("img/ableton-main-picture.png");
   background-size: cover;
   min-height: calc(100vh - 120px);
@@ -112,7 +120,7 @@ body {
   justify-content: center;
   align-items: center;
 }
-.ableton-main-picture h1 {
+.main-img-container .ableton-main-picture h1 {
   font-family: sans-serif;
   font-size: 7rem;
   color: #ff764d;
@@ -122,6 +130,8 @@ body {
   display: grid;
   grid-template-columns: 4;
   grid-template-rows: 1;
+  padding: 0 0;
+  padding-left: 2.5em;
 }
 .pictures-display .box1 {
   display: flex;

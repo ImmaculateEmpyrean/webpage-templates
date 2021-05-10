@@ -3,8 +3,12 @@
 //this value was arbitrary but seemed to work somewhat..
 $absolute-large-padding: 75px;
 
+$left-margin-from-wrapper: $spacing-larger; //duplicated in style.css
+
 .paragraphs{
     font-family:Georgia, 'Times New Roman', Times, serif;
+    padding:0 $left-margin-from-wrapper;
+
     p{
         padding: 0 $absolute-large-padding; 
         i{
