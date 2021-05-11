@@ -302,6 +302,28 @@ img {
   list-style: none;
   text-decoration: none;
 }
+.main-footer .flex ul li {
+  font-family: sans-serif;
+}
+.main-footer .flex ul li .facebook {
+  color: steelblue;
+  font-size: 2.5em;
+}
+.main-footer .flex ul li .twitter {
+  color: steelblue;
+  font-size: 2.5em;
+}
+.main-footer .flex ul li .youtube {
+  color: red;
+  font-size: 2.5em;
+}
+.main-footer .flex ul li .instagram {
+  color: orange;
+  font-size: 2.5em;
+}
+.main-footer .flex ul li:first-child {
+  font-weight: 600;
+}
 .main-footer .flex a {
   text-decoration: none;
   color: black;

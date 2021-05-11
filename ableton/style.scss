@@ -364,6 +364,30 @@ img{
             flex: 1 1 33%;
             list-style: none;
             text-decoration: none;
+
+            li{
+                font-family: sans-serif;
+
+                .facebook{
+                    color: steelblue;
+                    font-size: $spacing-larger;
+                }
+                .twitter{
+                    color: steelblue;
+                    font-size: $spacing-larger;
+                }
+                .youtube{
+                    color: red;
+                    font-size: $spacing-larger;
+                }
+                .instagram{
+                    color: orange;
+                    font-size: $spacing-larger;
+                }
+            }
+            li:first-child{
+                font-weight: 600;
+            }
         }
         a{
             text-decoration: none;
