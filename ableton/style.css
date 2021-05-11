@@ -347,5 +347,46 @@ img {
   text-decoration: none;
   color: black;
 }
+.main-footer .footer-end {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.main-footer .footer-end .left {
+  flex: 1 1 80%;
+}
+.main-footer .footer-end .left a {
+  text-decoration: none;
+  color: black;
+  padding: 0.5em;
+  font-size: 0.75rem;
+  font-family: "sans-serif";
+}
+.main-footer .footer-end .left p {
+  padding: 0.5em;
+  font-size: 0.75rem;
+  font-family: "sans-serif";
+}
+.main-footer .footer-end .right {
+  flex: 1 1 10%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.main-footer .footer-end .right p {
+  flex: 1 1 70%;
+  padding: 0.5em;
+  font-size: 0.75rem;
+  font-family: "sans-serif";
+  text-align: right;
+}
+.main-footer .footer-end .right .logo {
+  flex: 1 1 20%;
+  min-width: 2em;
+  min-height: 2em;
+}
+.main-footer .footer-end .right .logo img {
+  width: 100%;
+}
 
 /*# sourceMappingURL=style.css.map */

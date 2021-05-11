@@ -415,6 +415,58 @@ img{
                 color: black;
             }
         }
+    }
+    .footer-end{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        .left{
+            flex: 1 1 80%;
+            a{
+                text-decoration: none;
+                color: black;
+                padding: $spacing-smaller;
+                font-size: $font-small;
+    
+                font-family: "sans-serif";
+            }
+            p{
+                padding: $spacing-smaller;
+                font-size: $font-small;
+    
+                font-family: "sans-serif";
+            }
+        }
         
+
+        .right{
+            flex: 1 1 10%;
+
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+            p{
+                flex: 1 1 70%;
+                padding: $spacing-smaller;
+
+                font-size: $font-small;
+    
+                font-family: "sans-serif";
+
+                text-align: right;
+            }
+
+            .logo{
+                flex: 1 1 20%;
+                img{
+                    width: 100%;
+                }
+
+                min-width: $spacing-large;
+                min-height: $spacing-large;
+            }
+        }
     }
 }
