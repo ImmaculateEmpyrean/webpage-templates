@@ -32,7 +32,7 @@ html {
 
 body {
   display: grid;
-  grid-template-columns: 1fr minmax(500px, 1100px) 1fr;
+  grid-template-columns: 1fr minmax(500px, 1200px) 1fr;
   background: #f5f5f5;
 }
 
@@ -257,6 +257,33 @@ img {
 .image-board-purple .image-2 img {
   min-height: 100%;
   min-width: 100%;
+}
+
+.sales-pitch {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  padding: 0 5em;
+}
+.sales-pitch .image {
+  flex: 1 1 50%;
+}
+.sales-pitch .image img {
+  object-fit: cover;
+}
+.sales-pitch .pitch {
+  flex: 1 1 50%;
+  background-color: #b1c5ff;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.sales-pitch .pitch p {
+  padding: 2.5em;
+}
+.sales-pitch .pitch a {
+  padding: 0 2.5em;
 }
 
 /*# sourceMappingURL=style.css.map */
