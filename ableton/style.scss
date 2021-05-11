@@ -343,3 +343,31 @@ img{
         }
     }
 }
+
+
+
+
+//style the footer
+.main-footer{
+    padding: $spacing-larger $left-margin-from-wrapper * 2;
+    border-top: 1px solid lightgray;
+    .flex{
+
+        padding:$spacing-larger 0;
+
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+
+        row-gap: $spacing-large;
+        ul{
+            flex: 1 1 33%;
+            list-style: none;
+            text-decoration: none;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+    }
+}
