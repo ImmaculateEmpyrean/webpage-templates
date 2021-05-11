@@ -208,7 +208,7 @@ img {
 }
 .picture-grid-two .picture-box-3 {
   grid-row: 3/8;
-  grid-column: 7/11;
+  grid-column: 7/12;
   z-index: 1;
   display: flex;
   justify-content: center;
