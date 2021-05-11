@@ -321,6 +321,19 @@ img {
   color: orange;
   font-size: 2.5em;
 }
+.main-footer .flex ul li input[type=email] {
+  border: none;
+  background-color: lightgrey;
+  width: 75%;
+  padding: 1em;
+}
+.main-footer .flex ul li button {
+  border: none;
+  width: 25%;
+  background-color: #0000ff;
+  color: white;
+  padding: 1em;
+}
 .main-footer .flex ul li:first-child {
   font-weight: 600;
 }

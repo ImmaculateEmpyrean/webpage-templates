@@ -384,6 +384,21 @@ img{
                     color: orange;
                     font-size: $spacing-larger;
                 }
+
+
+                input[type=email]{
+                    border: none;
+                    background-color: lightgrey;
+                    width: 75%;
+                    padding: $spacing-small;
+                }
+                button{
+                    border: none;
+                    width: 25%;
+                    background-color: $dark-blue;
+                    color: white;
+                    padding: $spacing-small;
+                }
             }
             li:first-child{
                 font-weight: 600;
