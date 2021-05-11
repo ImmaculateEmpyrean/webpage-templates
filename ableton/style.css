@@ -334,10 +334,16 @@ img {
   color: white;
   padding: 1em;
 }
+.main-footer .flex ul li select {
+  width: 40%;
+  border: none;
+  padding: 0.5em;
+  background-color: lightgrey;
+}
 .main-footer .flex ul li:first-child {
   font-weight: 600;
 }
-.main-footer .flex a {
+.main-footer .flex ul a {
   text-decoration: none;
   color: black;
 }

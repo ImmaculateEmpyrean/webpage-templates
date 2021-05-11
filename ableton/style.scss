@@ -399,14 +399,22 @@ img{
                     color: white;
                     padding: $spacing-small;
                 }
+
+                select{
+                    width: 40%;
+                    border: none;
+                    padding: $spacing-smaller;
+                    background-color: lightgrey;
+                }
             }
             li:first-child{
                 font-weight: 600;
             }
+            a{
+                text-decoration: none;
+                color: black;
+            }
         }
-        a{
-            text-decoration: none;
-            color: black;
-        }
+        
     }
 }
