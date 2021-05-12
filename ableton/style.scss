@@ -208,18 +208,17 @@ img{
         grid-column: 2 / 6;
 
         z-index: 1;
-        background: black;
+        background-image: url("img/white-board-img.jpg");
+        background-position: center;
+        background-repeat: none;
+        background-size: cover;
 
         display: flex;
         justify-content: center;
         align-items: center;
         overflow: hidden;
 
-        img{
-            min-width: 100%;
-            min-height: 100%
-        }
-        
+        min-height: 35vh;
     }
     .picture-box-2{
         grid-row: 6 / 9;
@@ -231,11 +230,11 @@ img{
         justify-content: center;
         align-items: center;
         overflow: hidden;
-        
-        img{
-            min-width: 100%;
-            min-height: 100%
-        }
+
+        background-image: url("img/Ableton-bricks.jpg");
+        background-position: center;
+        background-repeat: none;
+        background-size: cover;
     }
     .background-green-box{
         background: $green;
@@ -255,10 +254,10 @@ img{
         align-items: center;
         overflow: hidden;
         
-        img{
-            min-width: 100%;
-            min-height: 100%
-        }
+        background-image: url("img/ableton-musical-instrument.jpg");
+        background-position: center;
+        background-repeat: none;
+        background-size: cover;
     }
 }
 
@@ -288,10 +287,14 @@ img{
         align-items: center;
         justify-content: center;
         overflow: hidden;
-        img{
-            min-height: 100%;
-            min-width: 100%;
-        }
+        
+        background-image: url("img/women-discussion.jpg");
+        background-position: center;
+        background-repeat: none;
+        background-size: cover;
+
+        min-height: 35vh;
+        min-width: 45vh;
     }
     .image-2{
         grid-row: 2 / 7;
@@ -301,10 +304,11 @@ img{
         align-items: center;
         justify-content: center;
         overflow: hidden;
-        img{
-            min-height: 100%;
-            min-width: 100%;
-        }
+        
+        background-image: url("img/presentation.jpg");
+        background-position: center;
+        background-repeat: none;
+        background-size: cover;
     }
 }
 
@@ -319,9 +323,12 @@ img{
 
     .image{
         flex: 1 1 50%;
-        img{
-            object-fit: cover;     
-        }
+        background-image: url("img/ableton-live.jpg");
+        background-position: left;
+        background-repeat: none;
+        background-size: cover;
+
+        min-height: 41vh;
     }
 
     .pitch{
@@ -441,31 +448,31 @@ img{
         
 
         .right{
-            flex: 1 1 10%;
+            flex: 1 1 20%;
 
             display: flex;
             flex-direction: row;
             align-items: center;
 
             p{
-                flex: 1 1 70%;
                 padding: $spacing-smaller;
 
                 font-size: $font-small;
-    
                 font-family: "sans-serif";
+                font-weight:900;
+
 
                 text-align: right;
             }
 
             .logo{
-                flex: 1 1 20%;
-                img{
-                    width: 100%;
-                }
+                background-image: url("img/ableton-logo.png");
+                background-position: center;
+                background-repeat: none;
+                background-size: cover;
 
-                min-width: $spacing-large;
-                min-height: $spacing-large;
+                min-height: 10vh;
+                min-width: 10vh;
             }
         }
     }

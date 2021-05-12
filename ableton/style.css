@@ -177,15 +177,15 @@ img {
   grid-row: 2/5;
   grid-column: 2/6;
   z-index: 1;
-  background: black;
+  background-image: url("img/white-board-img.jpg");
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
   overflow: hidden;
-}
-.picture-grid-two .picture-box-1 img {
-  min-width: 100%;
-  min-height: 100%;
+  min-height: 35vh;
 }
 .picture-grid-two .picture-box-2 {
   grid-row: 6/9;
@@ -195,10 +195,10 @@ img {
   justify-content: center;
   align-items: center;
   overflow: hidden;
-}
-.picture-grid-two .picture-box-2 img {
-  min-width: 100%;
-  min-height: 100%;
+  background-image: url("img/Ableton-bricks.jpg");
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
 }
 .picture-grid-two .background-green-box {
   background: #b6ffc0;
@@ -214,10 +214,10 @@ img {
   justify-content: center;
   align-items: center;
   overflow: hidden;
-}
-.picture-grid-two .picture-box-3 img {
-  min-width: 100%;
-  min-height: 100%;
+  background-image: url("img/ableton-musical-instrument.jpg");
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
 }
 
 .big-monitor-wavy {
@@ -241,10 +241,12 @@ img {
   align-items: center;
   justify-content: center;
   overflow: hidden;
-}
-.image-board-purple .image-1 img {
-  min-height: 100%;
-  min-width: 100%;
+  background-image: url("img/women-discussion.jpg");
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+  min-height: 35vh;
+  min-width: 45vh;
 }
 .image-board-purple .image-2 {
   grid-row: 2/7;
@@ -253,10 +255,10 @@ img {
   align-items: center;
   justify-content: center;
   overflow: hidden;
-}
-.image-board-purple .image-2 img {
-  min-height: 100%;
-  min-width: 100%;
+  background-image: url("img/presentation.jpg");
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
 }
 
 .sales-pitch {
@@ -267,9 +269,11 @@ img {
 }
 .sales-pitch .image {
   flex: 1 1 50%;
-}
-.sales-pitch .image img {
-  object-fit: cover;
+  background-image: url("img/ableton-live.jpg");
+  background-position: left;
+  background-repeat: none;
+  background-size: cover;
+  min-height: 41vh;
 }
 .sales-pitch .pitch {
   flex: 1 1 50%;
@@ -368,25 +372,25 @@ img {
   font-family: "sans-serif";
 }
 .main-footer .footer-end .right {
-  flex: 1 1 10%;
+  flex: 1 1 20%;
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 .main-footer .footer-end .right p {
-  flex: 1 1 70%;
   padding: 0.5em;
   font-size: 0.75rem;
   font-family: "sans-serif";
+  font-weight: 900;
   text-align: right;
 }
 .main-footer .footer-end .right .logo {
-  flex: 1 1 20%;
-  min-width: 2em;
-  min-height: 2em;
-}
-.main-footer .footer-end .right .logo img {
-  width: 100%;
+  background-image: url("img/ableton-logo.png");
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+  min-height: 10vh;
+  min-width: 10vh;
 }
 
 /*# sourceMappingURL=style.css.map */
