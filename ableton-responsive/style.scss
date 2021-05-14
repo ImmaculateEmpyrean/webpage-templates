@@ -1,8 +1,24 @@
-body{
-    margin: 0;
+@use "header" as *;
+
+*{
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     background: black;
-    color: white;
 }
+
+.website-wrapper{
+    width: 100%;
+    max-width: 1600px;
+    background: white;
+
+    padding: 0;
+    margin: 0;
+ }
